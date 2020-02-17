@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>Xnb</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>spacechase0</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/spacechase0/XnbCSharp</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LzxDecoder" Version="1.0.0" />
+    <PackageReference Include="SFML.Graphics" Version="2.5.0" />
+    <PackageReference Include="Tbin" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
